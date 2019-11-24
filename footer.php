@@ -13,7 +13,7 @@
 
 ?>
 			<?php
-			if ( is_singular() && ! is_page_template( array( 'templates/template-canvas.php' ) ) ) {
+			if ( ! is_page_template( array( 'templates/template-canvas.php' ) ) ) {
 			?>
 			<footer id="site-footer" role="contentinfo" class="header-footer-group">
 
