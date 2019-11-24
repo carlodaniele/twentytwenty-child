@@ -31,7 +31,7 @@
 		?>
 
 		<?php
-		if ( is_singular() && ! is_page_template( array( 'templates/template-canvas.php' ) ) ) {
+		if ( ! is_page_template( array( 'templates/template-canvas.php' ) ) ) {
 		?>
 		<header id="site-header" class="header-footer-group" role="banner">
 
